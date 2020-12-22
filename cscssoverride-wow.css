@@ -22,6 +22,9 @@ html {
 /* --- KIOSK WELCOME PAGE --- */
 /* Client logo */
 #ApplicationPage div#WelcomePage img {
+  padding: 20px;
+  background-color: #FFFFFF;
+  border-radius: 20px;
 }
 /* Welcome heading */
 #ApplicationPage div#WelcomePage div.jumbotron > h1 {
