@@ -4,17 +4,24 @@
 }
 /* Welcome heading */
 #ApplicationPage div#WelcomePage div.jumbotron > h1 {
-  color: rebeccapurple !important;
+  color: #4ECDC4 !important;
   transition: 1s;
 }
 #ApplicationPage div#WelcomePage div.jumbotron > h1:hover {
-  color:seagreen !important;
+  color:#292F36 !important;
 }
 /* Welcome copy */
 #ApplicationPage div#WelcomePage div.jumbotron > p.lead {
+  color: #4381C1
 }
 /* Start button */
 #ApplicationPage div#WelcomePage div.jumbotron > a#startapplication-btn {
+  animation: color-change 1s infinite;
+}
+@keyframes color-change {
+  0% { color: #4ECDC4; }
+  50% { color: #FF6B6B; }
+  100% { color: #4ECDC4; }
 }
 /* Go mobile link */
 #ApplicationPage div#WelcomePage div.jumbotron > div.hidden-phone a#mobilelink {
