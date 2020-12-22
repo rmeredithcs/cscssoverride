@@ -4,11 +4,11 @@
 }
 /* Welcome heading */
 #ApplicationPage div#WelcomePage div.jumbotron > h1 {
-  color: rebeccapurple;
+  color: rebeccapurple !important;
   transition: 1s;
 }
 #ApplicationPage div#WelcomePage div.jumbotron > h1:hover {
-  color:seagreen;
+  color:seagreen !important;
 }
 /* Welcome copy */
 #ApplicationPage div#WelcomePage div.jumbotron > p.lead {
