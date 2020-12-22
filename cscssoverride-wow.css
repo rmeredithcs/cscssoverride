@@ -17,11 +17,15 @@
 /* Start button */
 #ApplicationPage div#WelcomePage div.jumbotron > a#startapplication-btn {
   animation: color-change 1s infinite;
+  background-color: #FFD5C2;
 }
 @keyframes color-change {
   0% { color: #4ECDC4; }
   50% { color: #FF6B6B; }
   100% { color: #4ECDC4; }
+}
+#ApplicationPage div#WelcomePage div.jumbotron > a#startapplication-btn:hover {
+  box-shadow: 5px 10px 18px #888888;
 }
 /* Go mobile link */
 #ApplicationPage div#WelcomePage div.jumbotron > div.hidden-phone a#mobilelink {
