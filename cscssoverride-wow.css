@@ -41,7 +41,6 @@ html {
 /* Start button */
 #ApplicationPage div#WelcomePage div.jumbotron > a#startapplication-btn {
   animation: color-change 1s infinite;
-  background-color: #FFD5C2 !important;
 }
 @keyframes color-change {
   0% { color: #4ECDC4; }
@@ -50,7 +49,6 @@ html {
 }
 .btn, .btn-startapplication {
   border-radius: 50px !important;
-  background-color: #FFD5C2 !important;
 }
 /* Go mobile link */
 #ApplicationPage div#WelcomePage div.jumbotron > div.hidden-phone a#mobilelink {
