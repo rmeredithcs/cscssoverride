@@ -105,6 +105,7 @@ div#RequireOnlineBanking a.btn {
 /* --- START - APP REF --- */
 /* Start heading */
 #ApplicationPage div#Surname h2 {
+	color: pink !important;
 }
 /* Surname input */
 #ApplicationPage div#Surname > div.surname-container > div.surname-margin > input {
